@@ -1,7 +1,7 @@
 const { Sequelize, Model, DataTypes } = require("sequelize");
 
 const sequelize = (() => {
-    const seq = new Sequelize("report", "root", "password", {
+    const seq = new Sequelize("database", "root", "password", {
         host: "********",  // 地址
         dialect: "mysql", // 类型
         port: 3306,  // 端口
